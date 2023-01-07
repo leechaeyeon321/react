@@ -5,10 +5,6 @@
 // console.log(num);
 // NaN: 숫자 아님.
 
-function foo(a, b, ...rest) {
-  rest = { c: 'cc', d: 'dd' };
-}
-
 const arr = [1, 2, 3, 4, 5];
 console.log(arr);
 console.log(...arr);
