@@ -4,5 +4,11 @@ module.exports = {
     'linebreak-style': 0,
     'no-console': 'off',
   },
-  parser: 'babel-parser',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
 };
