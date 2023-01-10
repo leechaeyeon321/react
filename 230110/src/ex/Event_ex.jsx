@@ -1,5 +1,5 @@
 import { useState } from "react"
-function App() {
+function Event_ex() {
   const [info, setInfo] = useState([
     {name:"코디", email:"codee@gmail.com"}, 
     {name:"윤소희", email:"ysh@gmail.com"}
@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <input type="text" name="name" placeholder="이름" value={name} onChange={(e)=>{setName(e.target.value)}} />
-      <input type="text" name="email" value={email} onChange={(e)=>{setEmail(e.target.value)}} />
+      <input type="text" name="email" placeholder="이메일" value={email} onChange={(e)=>{setEmail(e.target.value)}} />
       <button type="button" onClick={()=>{ 
         setInfo(info.concat({name: name, email:email})) 
         setName('')
@@ -21,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default Event_ex;
