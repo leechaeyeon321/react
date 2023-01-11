@@ -8,7 +8,7 @@ function Event_ex() {
   const [email, setEmail] = useState("")
 
   return (
-    <div>
+    <div className="eventExDiv">
       <input type="text" name="name" placeholder="이름" value={name} onChange={(e)=>{setName(e.target.value)}} />
       <input type="text" name="email" placeholder="이메일" value={email} onChange={(e)=>{setEmail(e.target.value)}} />
       <button type="button" onClick={()=>{ 

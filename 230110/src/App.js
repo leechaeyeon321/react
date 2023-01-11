@@ -1,5 +1,5 @@
-// import './App.css';
-// import Event_ex from './ex/Event_ex';
+import './App.css';
+import Event_ex from './ex/Event_ex';
 // import State1 from './components/State1';
 // import State2 from './components/State2';
 // import Handler_ex from './ex/Handler_ex';
@@ -31,7 +31,7 @@ function App() {
       {/* <State1 /> */}
       {/* <State2 /> */}
       {/* <Handler_ex /> */}
-      {/* <Event_ex /> */}
+      <Event_ex />
     </div>
   );
 }
