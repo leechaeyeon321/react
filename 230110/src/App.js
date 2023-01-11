@@ -1,5 +1,5 @@
 // import './App.css';
-import Event_ex from './ex/Event_ex';
+// import Event_ex from './ex/Event_ex';
 // import State1 from './components/State1';
 // import State2 from './components/State2';
 // import Handler_ex from './ex/Handler_ex';
@@ -31,14 +31,14 @@ function App() {
       {/* <State1 /> */}
       {/* <State2 /> */}
       {/* <Handler_ex /> */}
-      <Event_ex />
+      {/* <Event_ex /> */}
     </div>
   );
 }
 // const MyComponent = props => {
 //   const {name, children} = props;
 //   return (
-//     <div>안녕하세요, 제 이름은 {name}입니다. 
+//     <div>안녕하세요, 제 이름은 {name}입니다.
 //       <br />
 //       children 값은 {children} 입니다.
 //     </div>
