@@ -1,0 +1,17 @@
+.divStyle {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.App {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.App h1 {
+    background-color: skyblue;
+}
+.App span {
+    background-color: orange;
+}
