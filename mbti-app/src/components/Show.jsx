@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import OrangeButton from './OrangeButton';
-import { useDispatch, useSelector } from 'react-redux';
 import { reset } from '../store/modules/mbti';
+import { useDispatch, useSelector } from 'react-redux';
 
 const Header = styled.p`
   font-size: 3em;
