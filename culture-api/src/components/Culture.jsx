@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 
-export default function Culture() {
+export default function Movie() {
   // // const [tempData, setTempData] = useState('');
   const [culData, setCulData] = useState('');
   const [loading, setLoading] = useState(true);
@@ -22,24 +22,6 @@ export default function Culture() {
   if (loading) {
     return <p>Loading</p>;
   } else {
-    return (
-      <>
-        {/* <img src={culData} alt="" /> */}
-        데이터 확인
-      </>
-    );
+    return <>데이터 확인</>;
   }
-  // useEffect(() => {
-  //   axios
-  //     .get('https://openapi.naver.com/v1/search/movie.json', {
-  //       params: { query: '영화이름' },
-  //       headers: {
-  //         'X-Naver-Client-Id': 'hdloT8hr8NgBEFkpD04Z',
-  //         'X-Naver-Client-Secret': 'kG7DAPHBXR',
-  //       },
-  //     })
-  //     .then((response) => {
-  //       console.log('response', response.data.items);
-  //     });
-  // });
 }
