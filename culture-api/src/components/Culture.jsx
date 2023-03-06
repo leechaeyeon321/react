@@ -7,7 +7,7 @@ export default function Movie() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const url = `http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=2f86f16e407ccd98d3a2e9f9d7edd11f&targetDt=20230101`;
+    const url = `http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key={}&targetDt=20230101`;
     axios
       .get(url)
       .then((responseData) => {

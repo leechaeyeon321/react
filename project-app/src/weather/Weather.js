@@ -12,7 +12,7 @@ import {
 import { BsCloudFog } from "react-icons/bs";
 
 const api = {
-  key: "9ee15f4b701050d4006958620f3cedec",
+  key: "",
   base: "https://api.openweathermap.org/data/2.5/",
 };
 

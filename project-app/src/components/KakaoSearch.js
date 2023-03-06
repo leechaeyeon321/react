@@ -3,7 +3,7 @@
 // import axios from 'axios';
 // import { useNavigate } from 'react-router-dom';
 
-// const KAKAO_KEY = '455180f34c2a736070620d039c92b6d3';
+// const KAKAO_KEY = '';
 // const Kakao = axios.create({
 //   baseURL: 'https://dapi.kakao.com',
 //   headers: {
